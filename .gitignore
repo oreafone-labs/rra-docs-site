@@ -1,0 +1,4 @@
+/.site-staging/
+/.site-backup/
+__pycache__/
+*.py[cod]
