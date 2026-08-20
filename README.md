@@ -14,6 +14,10 @@ Le contenu de `site/` ne doit pas être modifié manuellement. Une correction se
 fait dans le dépôt source privé, est rendue avec Quarto, validée, puis publiée à
 nouveau.
 
+Chaque projection arrive sur une branche `publication/*` et dans une Pull
+Request en brouillon. La CI valide le site candidat ; seule la fusion humaine
+de cette PR dans `main` déclenche GitHub Pages.
+
 ## Autorité
 
 Ce dépôt est une projection de lecture. Il n'adopte ni méthode, ni décision
